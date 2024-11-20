@@ -106,7 +106,7 @@
   align-self: stretch;
   background-color: azure;
   width: 100%;
-  gap:800px;
+  
 }
 .khung-intro-trai {
   display: flex;
@@ -194,7 +194,7 @@ height: 729.745px;
   display: flex;
   padding: 133.333px 85.333px;
   align-items: center;
-  gap: 550.667px;
+  gap: 114.667px;
   align-self: stretch;
 }
 .about-me-phai-tren {
@@ -410,7 +410,6 @@ line-height: 120%; /* 76.8px */
   display: flex;
 width: 1749.333px;
 align-items: flex-start;
-gap: 450px;
 }
 .cw-pics{
   height: 400px;
@@ -468,7 +467,7 @@ align-self: stretch;
   display: flex;
 padding: 128px 144px;
 align-items: center;
-gap: 400px;
+gap: 100px;
 align-self: stretch;
 background: #F5FCFF;
 }
