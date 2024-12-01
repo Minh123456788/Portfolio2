@@ -1,7 +1,7 @@
 
 .logo {
   width: 186.667px;
-  height: 40px;
+  height: 150px;
 }
 .logo-image {
   display: flex;
@@ -10,8 +10,8 @@
   gap: 42.667px;
   align-self: stretch;
   color: black;
-  width: 186.667px;
-  height: 40px;
+  width: 120px;
+  height: 100px;
 }
 #header {
   display: flex;
@@ -74,7 +74,7 @@
 .info-home {
   color: var(--Primary, #5e3bee);
   font-family: Roboto;
-  font-size: 21.333px;
+  font-size: 30.333px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 32px */
@@ -82,7 +82,7 @@
 .info-about-me {
   color: var(--Body, #1c1e53);
   font-family: Roboto;
-  font-size: 21.333px;
+  font-size: 30.333px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 32px */
@@ -90,7 +90,7 @@
 .info-portfolio {
   color: var(--Body, #1c1e53);
   font-family: Roboto;
-  font-size: 21.333px;
+  font-size: 30.333px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 32px */
@@ -98,7 +98,7 @@
 .info-testimonials {
   color: var(--Body, #1c1e53);
   font-family: Roboto;
-  font-size: 21.333px;
+  font-size: 30.333px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 32px */
@@ -110,15 +110,17 @@
   align-self: stretch;
   background-color: azure;
   width: 100%;
+  height: 950px;
   
 }
 .khung-intro-trai {
   display: flex;
-  width: 790.667px;
+  width: 50%;
   height: 526.667px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
+  padding-left: 500px;
 }
 .intro-trai-1 {
   color: var(--Heading-color, #282938);
@@ -134,7 +136,7 @@
   align-self: stretch;
   color: var(--Heading-color, #282938);
   font-family: Roboto;
-  font-size: 74.667px;
+  font-size: 100.667px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 89.6px */
@@ -142,17 +144,17 @@
 .product-design {
   color: var(--Primary, #5e3bee);
   font-family: Roboto;
-  font-size: 74.667px;
+  font-size: 100.667px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
 }
 .intro-trai-3 {
-  width: 621.333px;
+  width: 721.333px;
   height: 73.333px;
   color: var(--Body, #1c1e53);
   font-family: Roboto;
-  font-size: 24px;
+  font-size: 27px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 36px */
@@ -167,13 +169,14 @@
 }
 .khung-intro-trai-duoi {
   display: flex;
-  padding-top: 21.333px;
+  padding-top: 70.333px;
   align-items: flex-start;
   gap: 21.333px;
 }
 .intro-image{
-  width: 917.333px;
-height: 729.745px;
+  width: 750.333px;
+height: 850.745px;
+
 }
 .get-in-touch {
   display: flex;
@@ -187,8 +190,10 @@ height: 729.745px;
   color: white;
 }
 .khung-intro-phai {
-  width: 917.333px;
+  width: 50%;
   height: 729.745px;
+  padding-right: 500px;
+  padding-bottom: 300px;
 }
 .khung-about-me-trai {
   width: 813.333px;
@@ -237,11 +242,11 @@ height: 729.745px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 36px */
-  width: 821.333px;
+  width: 1200px;
 }
 .about-me-image {
-  width: 813.333px;
-  height: 996px;
+  width: 850px;
+  height: 850px;
 }
 .khung-achievements {
   display: flex;
@@ -414,6 +419,7 @@ line-height: 120%; /* 76.8px */
   display: flex;
 width: 1749.333px;
 align-items: flex-start;
+gap: 100px;
 }
 .cw-pics{
   height: 400px;
@@ -590,6 +596,7 @@ line-height: 48px; /* 150% */
 .fa-brands{
   width: 32px;
 height: 32px;
+font-size: 35px;
 }
 .footer-branches{
   display: flex;
@@ -615,3 +622,12 @@ line-height: 24px; /* 150% */;
 border-top: 3px solid var(--Primary-Main, #000);
 width: 100%;
 }
+.img-achievements{
+  width: 300px;
+  height: 200px;
+}
+.cw-pics{
+  height: 350px;
+  width: 550px;
+}
+
